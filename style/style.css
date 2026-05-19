@@ -76,7 +76,7 @@ main > section{
 }
 .images-container{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns:  repeat(2,1fr);
     gap: 24px;
 }
 .our-features{
@@ -152,26 +152,60 @@ main > section{
 .good-title .good-title2{
     font-size: 1.25rem;
     font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .good-title{
-    padding: 32px;
+    padding: 30px;
     margin-bottom: 20px;
     box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0.06);
 }
 .features{
     gap: 140px;
 }
+.features .faul{
+    margin-top: 10px;
+}
+#experience-badge{
+    padding: 42px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-left: -92px;
+    margin-top: -150px;
+
+}
+#experience-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.features img {
+    width: 100%;
+}
+footer{
+    max-width: 1440px;
+    margin: 130px auto ;
+    
+    padding: 40px;
+    justify-items: center;
+    border-radius: 8px;
+}
 
 @media screen and (max-width:576px){
     .navbar,
     .nav-links,
-    .teams{
+    .teams,.features{
         flex-direction: column;
     }
+footer{
+    display: none;
+}
     .images-container,.facts-container,.filter-container{
         grid-template-columns: 1fr;
+    }
+  #experience-badge{
+         margin-top: 20px;
+         margin-left: 30px;
+         
     }
     .facts-container{
         justify-items: center;
