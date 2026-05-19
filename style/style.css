@@ -144,6 +144,25 @@ main > section{
 .filter-container img{
     filter: grayscale(100%);
 }
+/* features section related styled  */
+#features-section-title{
+    border-left:5px solid #FF900E;
+    padding-left: 21px;
+}
+.good-title .good-title2{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.good-title{
+    padding: 32px;
+    margin-bottom: 20px;
+    box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+.features{
+    gap: 140px;
+}
 
 @media screen and (max-width:576px){
     .navbar,
